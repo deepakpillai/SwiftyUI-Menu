@@ -98,7 +98,7 @@ With the above steps you will be able to add the SwiftyUI Menu to your applicati
 
 ### Event control customization options
 * <u>Navigating to different view</u> 
-    * You can pass on the view instance to `destinationObject`. Make sure to cast your to AnyView type before assigning the object.
+    * You can pass on the view instance to `destinationObject`. Make sure to cast your view to `AnyView` type before assigning the object.
     
 * <u>Get tap event</u>
     * You can pass a closure to `didTap` property to get the tap event on a menu item.
