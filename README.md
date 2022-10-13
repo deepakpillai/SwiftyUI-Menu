@@ -19,7 +19,7 @@ ___
     }
     ```
 4. Add the below set of parameters to your main view which is inside your main ZStack
-```swift
+    ```swift
     .cornerRadius(isMenuShown ? 20 : 0)
     .offset(x: isMenuShown ? 300 : 0, y: isMenuShown ? 50 : 0)
     .navigationTitle("Home")
@@ -105,25 +105,25 @@ With the above steps you will be able to add the SwiftyUI Menu to your applicati
   
 ## Example
 1. Example to shows the usage of `didTap:` closure
-```swift
- MenuItem(text: "Home", textColor: .white, sfIconName: "house.circle", sfIconForgroundColor: .white, didTap: {
+    ```swift
+    MenuItem(text: "Home", textColor: .white, sfIconName: "house.circle", sfIconForgroundColor: .white, didTap: {
     self.toggleMenu()
-})
-```  
+    })
+    ```  
   
 2. Example to shows the usage of `destinationObject:` property
-  ```swift
+    ```swift
     MenuItem(text: "Profile", textColor: .white, sfIconName: "person.crop.circle", sfIconForgroundColor: .white, destinationObject: AnyView(Profile()))
-  ```
+    ```
   
 3. Example to show the menu item with no events
-  ```swift
+    ```swift
     MenuItem(text: "No event menu item", textColor: .white, iconImageName: "apple", iconImageWidth: 40.0, iconImageHeight: 40.0)
-  ```
+    ```
 4. Example to show menu item without an image 
-  ```swift
+    ```swift
     MenuItem(text: "Menu item with no icon", textColor: .white, noIconRequired: true, destinationObject: AnyView(Settings()))
-  ```
+    ```
 
 ### Installation - Manually
 
