@@ -93,7 +93,7 @@ With the above steps you will be able to add the SwiftyUI Menu to your applicati
             * You can set your own custom image and manage its width and height and backgroundColor by using `iconImageName`, `iconImageWidth`, `iconImageHeight` & `iconImageBackgroundColor` properties
         * With SF Symbols 
             * You can make use of `sfIconName`, `sfIconForgroundColor`, `sfIconBackgroundColor` & `sfIconSize` properties to manage your icons
-    *Menu item without icon image
+    * Menu item without icon image
         * You can set `noIconRequired: true` to remove image from the menu item
 
 ### Event control customization options
